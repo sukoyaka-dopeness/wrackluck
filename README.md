@@ -24,11 +24,12 @@ WrackLuckはボトルメールのウェブサービスです。
 > *The sea does not obey. It delivers eventually.*  
 > *海は従わない。それでも、いつか届ける。*
 
-- **Chance over control** — You cannot filter, target, or direct your letter.  
-- **Degradation as poetry** — Seawater warps ink. Words arrive changed.  
-- **No scores, no likes** — The sea has no ranking system.  
-- **1 sent, 1 received** — Every letter reaches exactly one person.  
+- **Chance over control** — You cannot filter, target, or direct your letter.
+- **Degradation as poetry** — Seawater warps ink. Words arrive changed. Characters vanish, corrupt, or refract into new meanings.
+- **No scores, no likes** — The sea has no ranking system.
+- **1 sent, 1 received** — Every letter reaches exactly one person.
 - **Connections fade** — Bonds strengthen briefly, then dissolve back into the sea.
+- **AI as flotsam** — AI-generated letters are not imitations of humans. They are noise, foam, and debris. The sea has always contained them.
 
 ---
 
@@ -38,21 +39,50 @@ WrackLuckはボトルメールのウェブサービスです。
 |---|---|
 | 🌊 Drift simulation | Letters take 3–6 hours minimum before arriving |
 | 🐧 Animal events | Penguins (express), cats (delay), goats (accelerate degradation) |
-| 🌀 Text degradation | Characters vanish, corrupt, or transform into new meanings |
+| 🌀 Text degradation | Characters vanish, corrupt, or transform — seawater refracts meaning |
 | 🦅 AI seabirds | AI-generated letters fill the sea — noise, flotsam, foam |
-| 🌍 Sea zones | 4 cultural zones derived from sender's location |
+| 🌍 Sea zones | 4 cultural zones derived from sender's geographic location |
 | 🔀 Scent system | Hidden metadata tags that influence who receives your letter |
 | ⚓ Sunken bottles | Rare event — bottles sink and are salvaged by deep sea creatures |
+| 🔇 No translation | Foreign letters arrive as-is. Reading is your choice. |
 
 ---
 
 ## What WrackLuck is NOT / これではありません
 
-- ❌ A messaging app  
-- ❌ A social network  
-- ❌ A place with likes, follows, or rankings  
-- ❌ A system you can game  
-- ❌ Instant  
+- ❌ A messaging app
+- ❌ A social network
+- ❌ A place with likes, follows, or rankings
+- ❌ A system you can game
+- ❌ Instant
+
+---
+
+## Future Vision / 将来構想
+
+- 🌐 **Federated architecture** — Fork it, run your own sea. Bottles drift between independent servers. No one owns the ocean.  
+  **フェデレーション型アーキテクチャ** — フォークして自分の海を立てる。ボトルはサーバーをまたいで漂流する。誰も海全体を所有しない。
+
+- 🏛️ **Deep sea archive** — Unlocked for seasoned voyagers. A silent exhibition of sunken letters, barely readable, from no one in particular.  
+  **深海展示室** — 十分に航海したユーザーにだけ開かれる場所。沈んだ手紙たちの無言の展示。誰のものでもなく、ほとんど読めない。
+
+- 🗣️ **Imperfect translation** — Powered by AI, intentionally incomplete. A fragment of the original language is always left untranslated.  
+  **不完全な翻訳** — AIによる翻訳だが、意図的に不完全。元の言語の響きが必ず残される。（課金要素候補）
+
+- 🐋 **More creatures** — Deep sea fish (salvage), whales (long haul), migratory birds (cross-border). Each sea zone has its own fauna.  
+  **追加生物** — 深海魚（サルベージ）、クジラ（長距離輸送）、渡り鳥（国境越え）。海域ごとに異なる生物が手紙にいたずらをする。
+
+- 🧬 **AI scent detection** — AI reads your letter and assigns scent tags automatically.  
+  **AI匂い推定** — AIがメッセージ内容を解析し、匂いタグを自動付与する。
+
+- 🌊 **Real ocean currents** — Drift simulation connected to actual oceanographic data.  
+  **リアル海流連携** — 実際の海洋データに基づいた漂流シミュレーション。
+
+- 🌍 **Multilingual degradation** — Text degrades according to the characteristics of each language.  
+  **多言語劣化** — 言語固有の特性（音節・文字方向など）に応じた劣化表現。
+
+- 🏺 **NFT preservation** — Legendary bottles — those that survived the longest journeys — can be permanently preserved on-chain.  
+  **NFT化** — 過酷な旅を生き抜いたレジェンダリーなボトルを、旅の全記録とともに永続保存する。
 
 ---
 
