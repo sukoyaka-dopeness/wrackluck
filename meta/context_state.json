@@ -1,0 +1,132 @@
+{
+  "project": {
+    "name": "WrackLuck",
+    "name_ja": "ラックラック",
+    "repository": "github.com/sukoyaka-dopeness/wrackluck",
+    "description": "Bottle mail where words drift and arrive by chance.",
+    "description_ja": "言葉が漂い、偶然に届くボトルメール。",
+    "status": "design_phase",
+    "previous_name": "CoastPals"
+  },
+
+  "relay": {
+    "current_stage": 6,
+    "current_ai": "Claude",
+    "stages": [
+      { "stage": 1, "ai": "Perplexity", "role": "Initial research and concept" },
+      { "stage": 2, "ai": "Grok",       "role": "Unconventional ideas and expansion" },
+      { "stage": 3, "ai": "Copilot",    "role": "Structural and technical review" },
+      { "stage": 4, "ai": "ChatGPT",    "role": "Integration and UX" },
+      { "stage": 5, "ai": "Gemini",     "role": "Cultural and emotional layer" },
+      { "stage": 6, "ai": "Claude",     "role": "Philosophy, specification, documentation" }
+    ]
+  },
+
+  "immutable_principles": [
+    "1 sent, 1 received. No broadcast.",
+    "No DM. Bottles only.",
+    "No scores or numerical values in UI. Always expressed as sensation.",
+    "No likes, reactions, or rankings.",
+    "Minimum drift time: 3-6 hours. The inconvenience is intentional.",
+    "Degradation cap: 80%.",
+    "AI letters are flotsam, not human imitation. Suspicion does not damage the experience.",
+    "The sea ultimately delivers. Dead storage is prevented by the system.",
+    "Seawater refracts meaning. Words that arrive are not guaranteed to be the words that were sent.",
+    "history_logs is append-only. Never overwrite."
+  ],
+
+  "mvp_spec": {
+    "send_languages": ["ja", "en"],
+    "receive_languages": "any (untranslated by default)",
+    "translation": "hidden in MVP, post-MVP opt-in with intentional imperfection",
+    "ai_human_ratio": "2:1 (AI:Human)",
+    "ai_identity": "Arcadia / アルカディア",
+    "ai_generation": "80% template, 20% rule-based variable",
+    "drift_lock_hours": { "min": 3, "max": 6 },
+    "degradation_cap": 0.8,
+    "sea_zones": ["mediterranean", "polynesian", "south_american", "african"],
+    "zone_assignment": "derived from sender geographic coordinates",
+    "current_zone_drift": true,
+    "scent_tags_count": "3-5 fixed categories (MVP)",
+    "re_arrival_weight": {
+      "first_landfall": 0.05,
+      "after_reply": 0.08,
+      "half_life_days": 30,
+      "expiry_days": 60
+    },
+    "animal_events": {
+      "penguin": { "effect": "express", "probability": 0.05 },
+      "cat":     { "effect": "delay",   "probability": 0.06 },
+      "goat":    { "effect": "degrade", "probability": 0.07 },
+      "sinking": { "effect": "sunken",  "probability": 0.02 }
+    },
+    "degradation_types": ["loss", "corruption", "meaning_refraction"],
+    "navigation_score": {
+      "sends":    1.0,
+      "receives": 1.0,
+      "replies":  2.0,
+      "sinkings": 5.0,
+      "days":     0.1,
+      "unlock_threshold": "TBD"
+    },
+    "deep_archive": {
+      "unlock_condition": "navigation_score >= threshold",
+      "unlock_reason_shown_to_user": false
+    }
+  },
+
+  "not_adopted": [
+    "Gyres (folder-like collection feature) — conflicts with 'cannot be owned' philosophy",
+    "Star chart UI for drift direction control — conflicts with inoperability principle",
+    "Real-time drift simulation — deferred to post-MVP"
+  ],
+
+  "post_mvp_features": [
+    "Deep sea archive (navigation score unlock)",
+    "Imperfect translation (opt-in, AI-powered, partially untranslated)",
+    "Additional creatures: deep sea fish, whale, migratory bird, octopus, sea turtle, pelican, dolphin",
+    "Sea zone fauna differentiation",
+    "AI scent detection (automatic tag assignment)",
+    "Real ocean current integration",
+    "Multilingual send support with language-specific degradation",
+    "Legendary bottle designation (degradation >= 80% + long voyage)",
+    "Journey title system (auto-generated from history logs)",
+    "NFT preservation for legendary bottles",
+    "Federated architecture (inter-server bottle drift)",
+    "ActivityPub compatibility investigation"
+  ],
+
+  "files_produced_this_session": [
+    { "path": "README.md",            "description": "Project identity, philosophy summary, MVP features, future vision, AI relay provenance" },
+    { "path": "PHILOSOPHY.md",        "description": "Immutable design principles, 9 chapters, EN/JA bilingual" },
+    { "path": "ROADMAP.md",           "description": "5-phase implementation roadmap with locked principles" },
+    { "path": "docs/SPEC.md",         "description": "Full technical specification, 12 chapters" },
+    { "path": "docs/PSEUDOCODE.md",   "description": "Core algorithms in pseudocode, 10 sections + tunable parameters appendix" },
+    { "path": "meta/context_state.json", "description": "Canonical relay state for future AI handoff" },
+    { "path": "meta/SESSION_LOG.md",  "description": "Session record for stage 6 (Claude)" }
+  ],
+
+  "directory_structure": {
+    "wrackluck/": {
+      "README.md": "Project overview and identity",
+      "PHILOSOPHY.md": "Immutable design principles",
+      "ROADMAP.md": "Implementation roadmap by phase",
+      "docs/": {
+        "SPEC.md": "Full technical specification",
+        "PSEUDOCODE.md": "Core algorithm pseudocode"
+      },
+      "meta/": {
+        "context_state.json": "Canonical relay state",
+        "SESSION_LOG.md": "AI relay session history"
+      }
+    }
+  },
+
+  "open_questions": [
+    "Navigation score unlock threshold (to be determined from real usage data)",
+    "Exact scent tag categories for MVP (3-5, to be defined during implementation)",
+    "Noise range tuning for receiver selection (philosophical parameter, default 0.0-0.15)"
+  ],
+
+  "handoff_notes": "Stage 6 (Claude) completed full documentation suite. All immutable principles confirmed and locked. MVP spec finalized. Repository live at github.com/sukoyaka-dopeness/wrackluck. Next stage: implementation (Phase 0)."
+}
