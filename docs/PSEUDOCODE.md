@@ -5,7 +5,7 @@
 >
 > *This is not implementation code. It is a specification of intent.*  
 > *これは実装コードではない。意図の仕様書である。*
-
+> 
 ---
 
 ## 1. The Lifecycle of a Bottle / ボトルのライフサイクル
